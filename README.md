@@ -95,10 +95,10 @@ source <(envs/bucc/bin/env)
 bucc up --cpi aws --spot-instance
 ```
 
-This will create `envs/bucc/vars.yml` stub for you to populate. Fortunately, we have a helper script to get most of it:
+This will create `src/bucc/vars.yml` stub for you to populate. Fortunately, we have a helper script to get most of it:
 
 ```plain
-envs/bucc/bin/vars-from-terraform.sh > envs/bucc/vars.yml
+envs/bucc/bin/vars-from-terraform.sh > src/bucc/vars.yml
 ```
 
 Now run `bucc up` again:
